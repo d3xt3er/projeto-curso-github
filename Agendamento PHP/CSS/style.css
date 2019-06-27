@@ -1,0 +1,188 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background: url(../Imagens/agenda.jpg);
+
+}
+.box
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.box h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"]
+{
+	 border: 0;
+	 background: none;
+	 display: block;
+	 margin: 20px auto;
+	 text-align: center;
+	 border: 2px solid #3498db; 
+	 padding: 14px 10px;
+	 width: 200px;
+	 outline: none; 
+	 color: white;
+	 border-radius: 24px;
+	 transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box input[type = "submit"]
+{
+	 border: 0;
+	 background: none;
+	 display: block;
+	 margin: 20px auto;
+	 text-align: center;
+	 border: 2px solid #2ecc71; 
+	 padding: 14px 40px;
+	 outline: none; 
+	 color: white;
+	 border-radius: 24px;
+	 transition: 0.25s;	
+	 cursor: pointer;
+}
+.box input[type = "submit"]:hover
+{
+	background: #2ecc71;
+}
+.footer
+{
+	transform: translate(-0.1%,800%);
+	color: #fff;
+	text-align: center; 
+	background: #191B2B; 
+    font-family: sans-serif;
+    height: 9%;
+    padding: 14px 14px;
+}
+.content
+{
+	color: red;
+	font-family: sans-serif; 
+	list-style: none;
+	cursor: pointer;
+	width: 48px;
+	height: 20px; 
+	padding: 14px 14px;
+	transform: translate(25%,25%);
+ 	outline: none; 
+ 	border-radius: 4px;
+}
+.content:hover
+{
+	color: #fff;
+	font-family: sans-serif; 
+	list-style: none;
+	cursor: pointer;
+	width: 48px;
+	height: 20px; 
+	padding: 14px 14px;
+	transform: translate(25%,25%);
+ 	outline: none; 
+ 	border-radius: 4px;
+ 	background-color: #FBF8F8;
+ 	text-decoration: none;
+}
+	
+.link
+{
+	transform: translate(6%,-74%);
+	outline: none; 
+}
+.content a
+{
+	text-decoration: none;
+  	display: inline-block;
+}
+.agenda
+{
+	width: 1000px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-200%);
+	background: #191919;
+	text-align: center;
+	border-radius: 24px;
+	color: #fff;
+	height: 70px;
+}
+.caixa select
+{
+background:#0563af;
+color: #fff;
+border: none;
+font-size: 15px;
+box-shadow: 0 5px 25px rgba(0,0,0,,5);
+border-radius: 5px;
+outline: none;
+/*-webkit-appearance:button;*/
+}
+.caixa:before
+{
+	content: '';
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background:#007ce0;
+}
+.caixa:hover:before
+{
+	background:#0472ca;
+}
+.buttons
+{
+  background-color: #fff;
+  border: 2px solid #908D8D;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 2px #999;
+  transform: translate(10%,10%);
+}
+.sair
+{
+  background-color: #fff;
+  border: 2px solid #908D8D;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 2px #999;
+  transform: translate(1610%,700%);
+}
